@@ -1,0 +1,64 @@
+question: 1
+q: Choose the correct syntax?
+a: print("Hello\" World")
+
+question: 2
+q: Which of the following is not a boolean expression?
+a: 3 + 4
+
+question: 3
+q: What will the following python code return? str1="Stack of books" print(len(str1))
+a: 14
+
+question: 4
+q: What is the correct way to create a multi-line string in Python?
+a: str = """My name is Kevin and I live in New York"""
+
+question: 5
+q: What is used to distinguish a block of code in Python?
+a: Indentation
+
+question: 6
+q: Select the output of the following python code? Mali = 5 print("Mali" + " is " + str(Mali))
+a: Mali is 5
+
+question: 7
+q: Which datatype is 'True'?
+a: Boolean
+
+question: 8
+q: What will be the output of the following python code? str1="6/4" print("str1")
+a: str1
+
+question: 9
+q: What will be the output of the following Python code? str1="poWer" str1.upper() print(str1)
+a: poWer
+
+question: 10
+q: Standard line length in Python?
+a: 79
+
+question: 11
+q: What are tuples in python?
+a: Tuples are ordered, immutable collections of items written with parentheses, for example: (1, "a", 3.5)
+
+question: 12
+q: What is the difference between tuples and lists in python?
+a: Tuples are immutable and use parentheses ( ), while lists are mutable and use square brackets [ ]
+
+question: 13
+q: How do you get the length of the string? With an example.
+a: Use the built-in len() function, for example: string1 = "hello World"; print(len(string1)) # 11.
+
+question: 14
+q: What are the supported data types in python?
+a: Common built-in types include int, float, complex, bool, str, list, tuple, dict, set, frozenset, bytes, bytearray, range, and NoneType.
+
+question: 15
+q: Write a program to check whether the word 'Umbrella' contains the letter 'e'.
+a: word = "Umbrella"; print('e' in word) # True.
+
+question: 16
+q: String slicingനായി ഒരു python 프로그램 എഴുതി (write a Python program for string slicing).
+a: s = "Umbrella"; print(s[0:3], s[-3:], s[::2]) # Umb, lla, Ubea.
+
