@@ -120,9 +120,11 @@ b3 = random.sample(list3,2) # it will give 2 random value from the list
 
 
 
-
 # video : 5 : Tabnine Plugin
 
 
 # ______ it was a great tool but discontinued now to the alternative
+
+# tabninine is pluin like github but it's free and safe 
+
 
