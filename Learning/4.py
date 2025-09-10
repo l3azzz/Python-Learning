@@ -335,7 +335,7 @@ tuple1 = ("Cat", "Dog") # bracket is the symbol of tuple commas msut
 
 
 
-# Video : 12 : Tuple Operators
+# Video : 12 : Tuple Operatorions
 
 tuple2 = (1,2,3)
 tuple2a = (4,5,6)

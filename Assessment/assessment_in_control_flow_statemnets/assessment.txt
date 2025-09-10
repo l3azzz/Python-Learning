@@ -1,0 +1,64 @@
+Question 1
+q: Which of the following is not used in a loop in Python?
+a: do-while loop
+
+Question 2
+q: Complex numbers belong to which datatype?
+a: Numeric
+
+Question 3
+q: Which function is used to remove white spaces wrapping a string?
+a: strip()
+
+Question 4
+q: Which function is used to remove the ending or beginning characters of a string?
+a: strip()
+
+Question 5
+q: Which of the following is a correct Python if statement?
+a: if a>=2:
+
+Question 6
+q: How is commenting done in Python programming language?
+a: #
+
+Question 7
+q: Which of the following is not a python datatype?
+a: Undefined
+
+Question 8
+q: What is the python file extension in this?
+a: .py
+
+Question 9
+q: Which operator helps to print multiline strings without using escape sequences?
+a: """ (3 double quotes together)
+
+Question 10
+q: How to create a variable to store an integer in python programming?
+a: a=12
+
+Question 11
+q: Write a program to print "hello world" using Python programming language.
+a: print("hello world")
+
+Question 12
+q: How to represent constant variable in Python?
+a: Use UPPERCASE naming, e.g., MAX_VALUE = 100
+
+Question 13
+q: List Python data-types.
+a: Numeric, String, List, Tuple, Dictionary, Set, Boolean
+
+Question 14
+q: List any 2 escape sequences and explain.
+a: \n Newline character moves the cursor to the next line; \t Tab inserts a horizontal tab space
+
+Question 15
+q: What is the difference between list and set?
+a: A list is ordered and can contain duplicates, while a set is unordered and only stores unique elements
+
+Question 16
+q: Write a Python program to find the sum of all items in a list.
+a:
+print(sum()) # 10
