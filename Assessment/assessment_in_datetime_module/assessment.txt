@@ -1,0 +1,81 @@
+Question 1
+q: What is the interval value obtained by running the random.random() function?
+a: (0,1)
+
+Question 2
+q: Which string function is used to know how many times a character is repeated?
+a: count()
+
+Question 3
+q: What is the output of the python code below? import math print(abs(math.sqrt(25)))
+a: 5.0
+
+Question 4
+q: An exception is __________
+a: an object
+
+Question 5
+q: What is the output of the following python code? lst = [1, 2, 3] lst[3]
+a: IndexError
+
+Question 6
+q: Which of the following is not an exception handling keyword of python?
+a: accept
+
+Question 7
+q: Which function is used to convert String to list?
+a: split()
+
+Question 8
+q: Which value cannot be returned by random.randrange(4)?
+a: 2.3
+
+Question 9
+q: Which of these blocks will be executed whether an exception occurs or not?
+a: finally
+
+Question 10
+q: Which of the following functions is used to randomize the items in the list?
+a: shuffle
+
+Question 11
+q: What is a dictionary?
+a: A dictionary is a collection of key-value pairs. It is an unordered, mutable, and indexed data structure in Python.
+
+Question 12
+q: What is a function in python?
+a: A function in Python is a block of reusable code that is organized to perform a single, related action.
+
+Question 13
+q: Describe the usage of len() with example.
+a: The len() function is used to find the length of an iterable like a list, string, tuple, or dictionary.
+   eg :- list = [1,2,3,4,5,6,7,8,9]
+   print(len(list))
+
+Question 14
+q: Write the code to search whether the word blue is present in the given string. "Mr. Blue has a blue house"
+a: text = "Mr. Blue has a blue house"
+   if "blue" in text:
+       print("The word 'blue' is present in the string.")
+   else:
+       print("The word 'blue' is not present in the string.")
+
+Question 15
+q: List 5 Python String Methods.
+a: 1. capitalize() - Converts the first character to upper case
+   2. lower() - Converts a string into lower case
+   3. upper() - Converts a string into upper case
+   4. find() - Searches the string for a specified value and returns the position of where it was found
+   5. replace() - Returns a string where a specified value is replaced with a specified value
+
+Question 16
+q: datetime module ഉപയോഗിച്ച് Yesterday, Today, Tomorrow dates print ചെയ്യുക. (Using the datetime module, print the dates for Yesterday, Today, and Tomorrow.)
+a: from datetime import date, timedelta
+   
+   today = date.today()
+   yesterday = today - timedelta(days=1)
+   tomorrow = today + timedelta(days=1)
+   
+   print("Yesterday:", yesterday)
+   print("Today:", today)
+   print("Tomorrow:", tomorrow)
