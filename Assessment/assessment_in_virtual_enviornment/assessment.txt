@@ -1,0 +1,83 @@
+Question 1
+q: Which of the following is a wrong variable name?
+a: 1variable
+
+Question 2
+q: Which of the following is not a fundamental feature of OOP?
+a: Instantiation
+
+Question 3
+q: The ____ method creates a datetime object from the given string.
+a: strptime()
+
+Question 4
+q: What is the output of the following python code? if the system date is 28th Feb, 2020 (Sunday). tday=datetime.date.today() print(tday.weekday())
+a: 6
+
+Question 5
+q: Which of the following is not a type of inheritance?
+a: Double-level
+
+Question 6
+q: Which of the following is the correct description of inheritance?
+a: Ability of a class to derive members of another class as a part of its own definition.
+
+Question 7
+q: Which of these keywords is used at the beginning of class definition?
+a: class
+
+Question 8
+q: What is JSON data?
+a: Exchanging data
+
+Question 9
+q: When will the finally block execute?
+a: always
+
+Question 10
+q: ____ represents an entity in the real world with its identity and behavior.
+a: An object
+
+Question 11
+q: What is Method Overriding in Python?
+a: Method overriding allows a child class to provide a specific implementation of a method that is already provided by its parent class. The method in the child class must have the same name and parameters as the one in the parent class.
+
+Question 12
+q: What is Inheritance?
+a: Inheritance is a fundamental concept in object-oriented programming where a new class can derive or inherit properties and behaviors (methods) from an existing class. This mechanism promotes code reusability.
+
+Question 13
+q: Does Python support multiple inheritance?
+a: Yes, Python supports multiple inheritance, which allows a class to be derived from more than one base or parent class [50][52][54].
+
+Question 14
+q: How to import modules in python?
+a: You can import modules in Python using the `import` statement followed by the module name, like `import module_name` [55][59]. You can also import specific parts of a module using the `from` keyword, for example: `from module_name import function_name` [63].
+
+Question 15
+q: What are Classes? How to create a python class?
+a: A class in Python is a blueprint or template for creating objects [56][64]. To create a class, you use the `class` keyword followed by the class name and a colon [56].
+For example:
+class MyClass:
+x = 5
+
+text
+
+Question 16
+q: Write a Python program to read a JSON file
+a: 
+import json
+
+Assuming you have a file named 'data.json'
+with content like: {"name": "John", "age": 30, "city": "New York"}
+try:
+with open('data.json', 'r') as file:
+data = json.load(file)
+print(data)
+except FileNotFoundError:
+print("Error: The file 'data.json' was not found.")
+except json.JSONDecodeError:
+print("Error: The file is not a valid JSON file.")
+
+text
+undefined
