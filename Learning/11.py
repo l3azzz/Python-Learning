@@ -110,10 +110,43 @@ r = requests.get("https://traveller.talrop.works/api/v1/places/")
 
 # video 3 : Request Post Method
 
+# for getting token or posting
+# what to post 
+data = {
+    "name": "New Place",
+    "description": "A newly added place.",
+}
+r = requests.post("https://traveller.talrop.works/api/v1/places/",data=data)
 
-r = requests.get("https://traveller.talrop.works/api/v1/places/")
 
 
-# 10 sec
 
 
+
+
+
+
+# video 4 : Implementing authorization headers
+
+# how to get into a protected url
+# login_info = 10384
+# access = login_info["access"]
+# headers = {
+#     "authorization" : f"Bearer {access}"
+# }
+# protected_request = requests.get("https://traveller.talrop.works/api/v1/places/", headers=headers)
+# # so 
+
+
+
+
+
+# video 5 : implementing search params
+
+
+params = {
+    "q" : "tok"
+}
+blah = requests.get("https://traveller.talrop.works/api/v1/places/", params=params)
+
+# how to implement a search in the api 
