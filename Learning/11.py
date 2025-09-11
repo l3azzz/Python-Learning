@@ -65,8 +65,55 @@ with open("movies.json","w") as json_file: # creates or open movies.json file
 
 
 converted_dict = json.loads(json_movie_dict)
-print(type(converted_dict))
-#                         "r" means read
+#print(type(converted_dict))
+                       # "r" means read
 with open ("movies.json", "r" ) as json_file:
     json_from_file = json.load(json_file)
-    print(json_from_file)
+    #print(json_from_file)
+
+
+
+
+
+
+
+
+
+
+
+
+
+# video 2 : REQUESTS Get Metho
+
+# in python for handling this we use request it's a library also 
+# pip install request
+import requests
+
+
+r = requests.get("https://traveller.talrop.works/api/v1/places/")
+#print(r) # print if we have gotten
+#print(r.text) # print in plain text
+#print(r.json()) # print in json only work if that is in json
+#print(type(r.text)) # print's r.text type
+#print(type(r.json())) # print type of r.json dict method
+
+# this how we get info like json from https
+
+
+
+
+
+
+
+
+
+
+# video 3 : Request Post Method
+
+
+r = requests.get("https://traveller.talrop.works/api/v1/places/")
+
+
+# 10 sec
+
+
